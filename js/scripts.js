@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $("p").click(function() {
-    $(".bird-showing").show();
+  $(".clickable").click(function() {
+    $("#bird-showing").toggle();
+    $("#bird-hidden").toggle();
   });
 });

@@ -1,3 +1,12 @@
-.bird-showing {
+#bird-showing {
   display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color:green
+}
+
+.clickable:hover {
+  text-decoration: underline;
 }
