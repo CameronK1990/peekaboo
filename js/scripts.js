@@ -3,4 +3,9 @@ $(document).ready(function() {
     $("#bird-showing").toggle();
     $("#bird-hidden").toggle();
   });
+
+
+  $(".fade-in").click(function() {
+    $(".fade-in").fadeOut();
+  });
 });
